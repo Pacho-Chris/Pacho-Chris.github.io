@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #0a0908;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    max-width: 80%;
+    margin: 40px auto;
+    border: 1px solid rgba(123, 118, 118, 0.68);
+    box-shadow: 0 0 10px white;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+header img {
+    display: block;
+    width: 50%;
+    margin: 0px auto;
+    margin-top: -75px;
+}
+h2{
+    font-size: 1.7rem;
+    color: #9C1A15;
+}
+
+h3 {
+    font-size: 1.5rem; /* Títulos más grandes */
+    color: #9C1A15; /* Color similar al título principal */
+    margin-bottom: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 70px;
+}
+.menu section {
+    box-shadow: 0 4px 15px white;
+    border-radius: 15px;
+    border: 1px solid;
+    padding: 30px;
+    min-width: 200px;
+    max-width: auto;
+}
+
+
+.menu-items {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: auto;
+    row-gap: 15px;
+    
+}
+
+.menu-items dt {
+    text-align: left;
+}
+
+.menu-items dd {
+    text-align: right;
+}
+
+.table-items {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-collapse: collapse;
+}
+
+
+/* Filas de la tabla */
+.table-items td {
+    border-bottom: 1px solid #DDDDDD; 
+    padding: 10px 15px; 
+    text-align: left; 
+    font-size: 1rem;
+}
+
+
+.table-items td, .table-items th {
+    border: 1px solid #ddd; /* Borde sutil */
+}
+
+@media only screen and (max-width: 600px) {
+    .table-items th, .table-items td {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+    .title {
+        font-size: 3rem;
+    }
+}
+
+
